@@ -1,5 +1,5 @@
-from app import strokesRequired
 import unittest
+from app import strokesRequired
 
 class TestStrokesRequired(unittest.TestCase):
     def testInput000(self):

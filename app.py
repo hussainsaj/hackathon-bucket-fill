@@ -1,15 +1,4 @@
-import math
-import os
-import random
-import re
 import sys
-
-#
-# Complete the 'strokesRequired' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts STRING_ARRAY picture as parameter.
-#
 
 def strokesRequired(picture):
     # Write your code here
@@ -51,3 +40,20 @@ def strokesRequired(picture):
                 fill(i, a)
     
     return strokes
+
+if __name__ == '__main__':
+    fptr = sys.stdout
+
+    picture_count = int(input().strip())
+
+    picture = []
+
+    for _ in range(picture_count):
+        picture_item = input()
+        picture.append(picture_item)
+
+    result = strokesRequired(picture)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
