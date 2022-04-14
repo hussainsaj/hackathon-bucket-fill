@@ -1,5 +1,5 @@
 # Bucket fill challenge
-A submission for virtual mini hackathon challenge
+A submission for virtual mini hackathon challenge (I'm a joint winner! :tada:)
 
 [The link to the challenge](https://docs.google.com/document/d/11qIH9Aih7MwOG9TbilbPZqQneUYmj3fd/edit)
 
